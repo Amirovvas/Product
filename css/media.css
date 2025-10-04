@@ -30,6 +30,10 @@
         width: 100%;
         max-width: 450px;
       }
+      .icon {
+          display: flex;
+          gap: 10px;
+        }
     }
   }
   #contents {
