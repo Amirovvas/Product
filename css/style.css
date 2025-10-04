@@ -70,8 +70,8 @@ button {
   border-radius: 10px;
   font-size: clamp(0.625rem, 0.419rem + 0.94vw, 1.125rem);
   background: #02897a;
-  color: white;
-  align-self: start;
+  color: white;       
+ 
 }
 
 /* header */
@@ -114,7 +114,7 @@ button {
   padding-block: 40px;
   .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     gap: 20px;
     .hero-text {
@@ -123,8 +123,9 @@ button {
       gap: 20px;
       .two-btn {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        align-items: start;
+        /* justify-content: space-between; */
+        gap: 15px;
         .icon-btn {
           display: flex;
           align-items: center;
@@ -148,6 +149,8 @@ button {
     gap: 20px;
     .blocks {
       display: flex;
+      justify-content: space-between;
+      align-items: center;
       gap: 20px;
       .main1 {
         background: #02897a;
@@ -172,7 +175,7 @@ button {
       .block {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         gap: 20px;
       }
     }
@@ -372,6 +375,7 @@ button {
     .join-text {
       display: flex;
       flex-direction: column;
+      align-items: center;
       gap: 25px;
       h2 {
         color: white;

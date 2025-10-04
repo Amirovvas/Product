@@ -59,6 +59,15 @@
       }
     }
   }
+  #join {
+    .join -text {
+      button {
+        width: 100%;
+        max-width: 100px;
+        height: 100px;
+      }
+    }
+  }
 }
 @media (max-width: 1024px) {
   #header {
@@ -91,7 +100,8 @@
 
   #quick {
     .quick {
-      align-items: center;
+      justify-content: center;
+
       .imgs {
         img {
           width: 100%;
@@ -112,7 +122,21 @@
   #product {
     .product {
       align-items: center;
-      text-align: center;
+      .bloks {
+        flex-direction: column;
+        .blok {
+          align-items: center;
+        }
+      }
+    }
+  }
+  #clients {
+    .clients {
+      .stars {
+        .stars-card {
+          gap: 25px;
+        }
+      }
     }
   }
 }
@@ -151,27 +175,35 @@
   #hero {
     .hero {
       flex-direction: column-reverse;
-      align-items: center;
       text-align: center;
+      .hero-text {
+        .two-btn {
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+        }
+      }
     }
   }
   #product {
     .product {
       align-items: center;
-      button {
-        margin-left: 190px;
-      }
+      justify-content: center;
 
       .blocks {
         flex-direction: column;
         align-items: center;
+        .block {
+          align-items: center;
+        }
       }
     }
   }
   #management {
     .management {
       flex-direction: column-reverse;
-      text-align: center;
+      align-items: center;
+      text-align: left;
       .img-noreser {
         display: none;
       }
@@ -192,11 +224,11 @@
     .contents {
       text-align: center;
       align-items: center;
+      justify-content: center;
       .contents-img {
         flex-wrap: wrap;
         align-items: center;
         text-align: center;
-        margin-left: 50px;
       }
     }
   }
@@ -218,7 +250,8 @@
         flex-wrap: wrap;
         align-items: center;
         text-align: center;
-        margin-left: 70px;
+        justify-content: center;
+
         .stars-card {
           gap: 10px;
         }
@@ -230,9 +263,7 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
-      button {
-        margin-left: 160px;
-      }
+      justify-content: center;
     }
   }
   #footer {
