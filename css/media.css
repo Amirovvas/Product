@@ -277,4 +277,16 @@
   }
 }
 @media (max-width: 475px) {
+  #contents {
+    .contents {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      .contents-img {
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: left;
+      }
+    }
+  }
 }
