@@ -31,9 +31,9 @@
         max-width: 450px;
       }
       .icon {
-        display: flex;
-        gap: 10px;
-      }
+          display: flex;
+          gap: 10px;
+        }
     }
   }
   #contents {
@@ -233,16 +233,10 @@
         flex-wrap: wrap;
         align-items: center;
         text-align: center;
-        .card {
-        align-items: center;
-        justify-content: center;
-        text-align: left;
-        width: 100%;
-
-          h3 {
-            width: 100%;
-            max-width: 260px;
-          }
+        .card{
+          align-items: center;
+          justify-content: center;
+          
         }
       }
     }

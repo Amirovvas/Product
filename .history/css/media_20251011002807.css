@@ -234,9 +234,8 @@
         align-items: center;
         text-align: center;
         .card {
-        align-items: center;
-        justify-content: center;
-        text-align: left;
+        /* align-items: center;
+        justify-content: center; */
         width: 100%;
 
           h3 {

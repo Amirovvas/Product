@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: Poppins;
   border: none;
+  outline: ;
 }
 .container {
   max-width: 1280px;
